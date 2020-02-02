@@ -1,0 +1,5 @@
+{
+    "query_endpoint": "/sytek/db/query",
+    "fuseki_query_api" : "http://localhost:3030/db/query",
+    "jsonToHtmlTemplate" : "fuseki_html_results.jinja2"
+}
