@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<style>
+			table#t01 table, th, td {
+			  border: 1px solid black;
+			  border-collapse: collapse;
+			}
+		</style>
+    </head>
+	<body>
+		<form action="http://localhost:5000/sytek/db/query" method="POST">
+			<p>Enter your SPARQL query here below ...</p>
+			<textarea name="query" rows="20" cols="100"></textarea>
+			<div>
+				<input type="submit" value="Send">
+			</div>
+		</form>
+	</body>
+</html>
+
